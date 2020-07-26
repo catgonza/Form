@@ -1,0 +1,23 @@
+<body> 
+    <h1 style="text-align: center"> TASK FORM </h1>		 
+    <form name="Form" action="/submit.php" onsubmit="return TaskForm()" method="post"> 
+        
+        <p>Task Name: <input type="text" size=65 name="Taskname"> </p><br>	 
+        <p>Task description: <input type="text" size=65 name="Description"> </p><br> 
+        <p>Assigned to: <input type="text" size=65 name="Assigned"> </p><br> 
+        <p>Due date: <input type="text" size=65 name="Duedate"> </p><br> 
+      
+            
+        <p>Status 
+            <select type="text" value="" name="Status"> 
+                <option>Not started</option> 
+                <option>In progress</option> 
+                <option>Completed</option> 
+                <option>Overdue</option> 
+            </select></p><br><br> 
+        <p><input type="reset" value="Cancel" name="Reset">	 
+            <input type="submit" value="OK" name="Submit"> 
+        </p>		 
+    </form> 
+    </body>
+    
